@@ -1,13 +1,8 @@
+// global imports
 
-// ==========================================================================
-// Global Imports
-// ==========================================================================
-
-@import 'partials/variables',
-        'partials/mixins',
-        'partials/base',
-        'partials/components',
-        'partials/layout',
-        'partials/responsive';
-
-
+@import "partials/variables",
+        "partials/base",
+        "partials/components",
+        "partials/responsiveness",
+        "partials/mixins",
+        "partials/layouts";

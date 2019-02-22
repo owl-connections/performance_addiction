@@ -1,27 +1,10 @@
-// Descriptive color variables
+// start of my content grids
 
-$white : #fff;
-$black : #000;
-$grey : #878787;
-$regent-st-blue : #add8e6;
-$river-bed : #48525c;
-$yellow-orange : #ffa949;
-$color-text-dark: #2a2a2a;
+.senna {
+    
+}
 
-// Functional color variables
+// end of my grid vibes for home
 
-$color-prim : $yellow-orange;
-$color-sec : $river-bed;
+// styling my navbar
 
-$color-text-light : $white;
-$color-text-base : $grey;
-$color-text-dark : $river-bed;
-
-$color-border-light : lighten($grey, 35%);
-$color-border-dark : $yellow-orange;
-
-$color-link-default : $yellow-orange;
-$color-link-visited : $regent-st-blue;
-
-$color-shadow : rgba($black, .8);
-$color-body : $white;

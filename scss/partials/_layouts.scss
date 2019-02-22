@@ -1,0 +1,102 @@
+// start of the container for our home page
+
+.container {
+    display: grid;
+    grid-gap: 0.625rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+
+    grid-template-areas: "head head"
+                         "main main"
+                         "footer footer"
+}
+
+.header {
+    grid-area: head;
+
+}
+
+.container-main {
+    grid-area: main;
+}
+
+.feeter {
+    grid-area: footer;
+}
+
+// grid for the news page
+
+.wrapper-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 40vh);
+    grid-gap: 1em;
+    padding: 2em;
+    grid-template-areas: 
+                            "sectionone asideone asideone"
+                            "asidetwo asidetwo sectiontwo"
+                            "sectionthree asidethree asidethree"
+}
+
+#sectionone {
+    grid-area: sectionone;
+}
+
+#asideone {
+    grid-area: asideone;
+    border-bottom: 1px solid red;
+}
+
+#asidetwo {
+    grid-area: asidetwo;
+    border-bottom: 1px solid red;
+}
+
+#sectiontwo {
+    grid-area: sectiontwo
+}
+
+#sectionthree {
+    grid-area: sectionthree;
+}
+
+#asidethree {
+    grid-area: asidethree;
+    border-bottom: 1px solid red;
+}
+
+// second grid for the news page
+
+#wrapper-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 50vh);
+    grid-gap: 1em;
+    padding: 2em;
+    grid-template-areas: 
+                            "asidefour asidefour sectionfour"
+                            "sectionfive asidefive asidefive"
+                            "asidesix asidesix sectionsix"
+}
+
+#asidefour {
+    grid-area: asidefour;
+    
+}
+
+#sectionfour {
+    grid-area: sectionfour;
+}
+
+#sectionfive {
+    grid-area: sectionfive;
+}
+
+#asidefive {
+    grid-area: asidefive;
+}
+
+#asidesix {
+    grid-area: asidesix;
+}
+
